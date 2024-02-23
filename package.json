@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd client && npm start\" \"cd server && nodemon index.js\""
+  },
+  "workspaces": [
+    "client/",
+    "server/"
+  ]
+}
