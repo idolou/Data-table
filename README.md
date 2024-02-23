@@ -24,9 +24,8 @@ This readme provides instructions for setting up and running the Users Table Web
     years_of_experience INT
    );
    ```
-3. Create new .env file.
-   1. Add: `DBpassword=root` (change this to your database password)
-   2. Add: `database=exam`
+3. Go to `server\dbUtils.js`.
+   1. Change: `DBpassword=root` (change this to your database password)
 
 ## Project Setup
 
