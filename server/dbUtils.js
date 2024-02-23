@@ -4,8 +4,8 @@ import mysql2 from 'mysql2';
 const db = mysql2.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'root',
-  database: 'exam',
+  password: env.DBpassword,
+  database: env.database,
 });
 
 export const getAllUsers = (callback) => {
