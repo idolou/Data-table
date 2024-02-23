@@ -48,17 +48,12 @@ This readme provides instructions for setting up and running the Users Table Web
     years_of_experience INT
    );
    ```
-
-## Database Configuration
-
-- Create new file called .env.
-- put your db root password and the db name as follow:
-  -DBpassword=root (change this to your password)
-  -database=exam
+3. Create new .env file.
+   1. Add: `DBpassword=root` (change this to your database password)
+   2. Add: `database=exam`
 
 ## Project Setup
 
--Open a terminal and navigate to the directory where the project is located.
--Run the command npm install to install the required dependencies.
--Start the application by running npm start.
--Ensure that your environment meets the necessary requirements before executing the steps outlined above.
+- Open a terminal and navigate to the directory where the project is located.
+- run `npm install`
+- run `npm start`
