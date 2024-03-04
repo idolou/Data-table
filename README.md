@@ -32,3 +32,11 @@ This readme provides instructions for setting up and running the Users Table Web
 - Open a terminal and navigate to the directory where the project is located.
 - run `npm install`
 - run `npm start`
+
+## Demo
+
+
+
+https://github.com/idolou/Data-table/assets/63515984/5574350c-8ada-4e5d-bef8-3b5d66043657
+
+
